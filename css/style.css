@@ -1,0 +1,50 @@
+a:visited {
+    color: pink;
+}
+input:valid {
+    background-color: yellow;
+}
+:target {
+    border: 2px solid #D4D4D4;
+    background-color: #e5eecc;
+}
+::selection {
+    color: red;
+    background: yellow;
+}
+:root {
+    background: #ffffff;
+}
+input:required {
+    background-color: yellow;
+} 
+input:read-write {
+    background-color: skyblue;}
+:-ms-input-placeholder { /* Edge 12-18 */
+    color: red;
+}
+::placeholder {
+    color: red;
+}
+input:out-of-range {
+    border: 2px solid red;
+}
+p:only-child {
+    background: yellow;
+}
+p:only-of-type {
+    background: rgb(66, 255, 182);
+}
+input:focus {
+    background-color: yellow;
+}
+h2:has(+p) {
+    color: gray;
+    border: 2px dotted red;
+}
+a:hover {
+    background-color: yellow;
+}
+:marker { 
+    color: red;
+}
